@@ -1,9 +1,15 @@
 import { useState } from 'react'
+import {books } from './constants/mockData'
+import Layout from './layout/Layout'
+import Books from './components/Books'
 function App() {
 
   return (
     <>
-    <h1 className='text-red-500'>start</h1>
+    <Layout>
+      <Books/>
+    </Layout>
+
     </>
   )
 }
