@@ -40,14 +40,14 @@ function Books() {
               {books.map(book=>(
                 <BookCard key={book.id} data={book} handelLikeList={handelLikeList}/>
               ))}
-            
         </div>
 
-        <div className={!!liked.length&& "h-fit p-[15px] bg-[#6552f4] rounded-xl ml-5 flex flex-[1_1_0]   "}>
-               {!!liked.length &&
-               <SideCard liked={liked}/>
-                }
-        </div>
+       {!!liked.length&&
+           <div className={ "h-fit p-[15px] bg-[#6552f4] rounded-xl ml-5 flex flex-[1_1_0]   "}>
+               <SideCard liked={liked}/> 
+           </div>
+       }
+
     </div>
 
 
