@@ -9,7 +9,7 @@ function Layout({children}) {
             <a href="https://github.com/Mani-Jebraeily"
             className='text-[#6552f4] text-[1.1rem] font-semibold pr-1 '
             >Mani Jebraeily</a>
-            | React.js Full Course
+            | React.JS 
         </p>
     </header>
     {children}
