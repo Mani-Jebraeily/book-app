@@ -30,8 +30,6 @@ function Books() {
       setBooks(BookData)
     }
   }
-  
-
   return (
     <>
     <SearchBox search={search} setSearch={setSearch}  searchHandeler={searchHandeler}/>
